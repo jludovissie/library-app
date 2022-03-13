@@ -1,0 +1,20 @@
+<h1>Graphics Listing Page</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @graphic.each do |graphic| %>
+    <tr>
+      <td><%= graphic.title %></td>
+      <td><%= graphic.description %></td>
+      <td>Placeholder</td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
